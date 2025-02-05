@@ -27,12 +27,12 @@ languages:
     languageCode: de-DE
     languageDirection: ltr
     languageName: Deutsch
-    title: AYTO Ergebnisse
+    title: Homepage
     weight: 1
   en:
     disabled: false
     languageCode: en-US
     languageDirection: ltr
     languageName: English
-    title: AYTO Results
+    title: Homepage
     weight: 2
