@@ -1,0 +1,38 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: My New Hugo Site
+theme: ["hugo-book"]
+
+params:
+  BookSection: '*'
+  BookToC: true
+  BookDateFormat: 'Jan 2, 2006'
+  BookSearch: true
+  BookComments: false
+
+menus:
+  main:
+  - identifier: products
+    name: Products
+    pageRef: /products
+    weight: 10
+  - identifier: services
+    name: Services
+    pageRef: /services
+    weight: 20
+
+languages:
+  de:
+    disabled: false
+    languageCode: de-DE
+    languageDirection: ltr
+    languageName: Deutsch
+    title: AYTO Ergebnisse
+    weight: 1
+  en:
+    disabled: false
+    languageCode: en-US
+    languageDirection: ltr
+    languageName: English
+    title: AYTO Results
+    weight: 2
